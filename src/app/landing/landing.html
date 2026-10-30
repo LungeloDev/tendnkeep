@@ -1,0 +1,563 @@
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Tend N Keep home" (click)="closeMenu()">
+            <span class="brand-symbol" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                    <path d="M24 30V18M24 24C14 24 11 18 12 11C20 11 24 15 24 24Z" stroke="currentColor"
+                        stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M24 20C24 12 29 8 37 9C37 17 32 21 24 20Z" stroke="currentColor" stroke-width="2.6"
+                        stroke-linejoin="round" />
+                    <path d="M8 28L16 35C18 37 20 38 24 38C28 38 30 37 32 35L40 28M14 28L21 32H27L34 28"
+                        stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </span>
+
+            <span class="brand-text">
+                <strong>Tend <span>N</span> Keep</strong>
+                <small>Rooted in care.</small>
+            </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-controls="primary-navigation" [attr.aria-expanded]="menuOpen"
+            [attr.aria-label]="menuOpen ? 'Close navigation' : 'Open navigation'" (click)="menuOpen = !menuOpen">
+            <span [class.open]="menuOpen"></span>
+            <span [class.open]="menuOpen"></span>
+            <span [class.open]="menuOpen"></span>
+        </button>
+
+        <nav id="primary-navigation" class="navigation" [class.is-open]="menuOpen" aria-label="Main navigation">
+            <a href="#our-story" (click)="closeMenu()">Our story</a>
+            <a href="#our-focus" (click)="closeMenu()">Our focus</a>
+            <a href="#our-approach" (click)="closeMenu()">Our approach</a>
+            <a href="#get-involved" class="button button-primary nav-button" (click)="closeMenu()">
+                Get involved <span aria-hidden="true">↗</span>
+            </a>
+        </nav>
+    </div>
+</header>
+
+<main id="main-content">
+    <!-- HERO -->
+    <section id="home" class="hero community-hero section-anchor">
+        <div class="container hero-grid">
+            <div class="hero-copy">
+                <span class="eyebrow">
+                    <span class="eyebrow-dot"></span>
+                    Rooted in care. Connected by community.
+                </span>
+
+                <h1>
+                    A helping hand.
+                    <span class="heading-accent">A way forward.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Everyone deserves to feel seen, supported and able to move
+                    forward. Tend N Keep brings people together to care for our
+                    communities and create possibilities beyond our circumstances.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#community" class="button button-primary">
+                        Find your place here <span aria-hidden="true">↗</span>
+                    </a>
+
+                    <a href="#our-story" class="text-link">
+                        Our story <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+
+                <div class="community-origin">
+                    <span class="origin-line" aria-hidden="true"></span>
+                    <p>
+                        Starting with acts of kindness.
+                        <strong>Growing a community of possibility.</strong>
+                    </p>
+                </div>
+            </div>
+
+            <div class="belonging-panel">
+                <div class="belonging-top">
+                    <span>Tend N Keep</span>
+                    <span class="belonging-location">South Africa</span>
+                </div>
+
+                <div class="belonging-message">
+                    <span class="belonging-kicker">Our shared humanity</span>
+
+                    <p>
+                        There’s room<br />
+                        for <em>all of us.</em>
+                    </p>
+                </div>
+
+                <div class="belonging-bottom">
+                    <p>
+                        To find support.<br />
+                        To share what we can.<br />
+                        To move forward together.
+                    </p>
+
+                    <span class="belonging-arrow" aria-hidden="true">↗</span>
+                </div>
+
+                <div class="belonging-ribbon" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VALUES STRIP -->
+    <div class="values-strip" aria-label="Our values">
+        <div class="container values-inner">
+            <span>Everyone deserves dignity</span>
+            <span class="value-divider" aria-hidden="true">✳</span>
+            <span>Everyone has something to offer</span>
+            <span class="value-divider" aria-hidden="true">✳</span>
+            <span>We grow together</span>
+        </div>
+    </div>
+
+    <section id="community" class="section community-section section-anchor">
+        <div class="container">
+            <div class="centered-heading">
+                <span class="eyebrow">You belong in this story</span>
+                <h2>Different circumstances.<br />A shared sense of belonging.</h2>
+
+                <p>
+                    Some days we need a helping hand. Other days we have one to give.
+                    There is dignity in both.
+                </p>
+            </div>
+
+            <div class="community-paths">
+                <article class="community-path path-support">
+                    <div class="path-heading">
+                        <span class="path-label">Looking for support</span>
+                        <span class="path-symbol" aria-hidden="true">↗</span>
+                    </div>
+
+                    <h3>You do not have to<br />figure everything out alone.</h3>
+
+                    <p>
+                        We are building a community where people can share their
+                        circumstances, discover opportunities and connect around
+                        practical needs.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        Connect with us <span aria-hidden="true">→</span>
+                    </a>
+                </article>
+
+                <article class="community-path path-contribute">
+                    <div class="path-heading">
+                        <span class="path-label">Offering a helping hand</span>
+                        <span class="path-symbol" aria-hidden="true">↗</span>
+                    </div>
+
+                    <h3>What you can share<br />could mean so much.</h3>
+
+                    <p>
+                        Your time, experience, resources or connections can help
+                        someone take their next step. Start with what you have,
+                        wherever you are.
+                    </p>
+
+                    <a href="#get-involved" class="text-link">
+                        Explore ways to help <span aria-hidden="true">→</span>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- STORY -->
+    <section id="our-story" class="section story-section section-anchor">
+        <div class="container story-grid">
+            <div class="story-heading">
+                <span class="eyebrow">Our story</span>
+
+                <h2>
+                    Before there was a name,
+                    <em>there was care.</em>
+                </h2>
+
+                <div class="story-decoration" aria-hidden="true">
+                    <span></span><span></span><span></span><span></span>
+                </div>
+            </div>
+
+            <div class="story-copy">
+                <p class="lead">
+                    It started with painting homes — and the belief that
+                    people deserve to live with dignity.
+                </p>
+
+                <p>
+                    Our founder did not wait for an organisation to start helping.
+                    She saw where she could make a difference and offered what
+                    she could: her time, her effort and her care.
+                </p>
+
+                <p>
+                    Tend N Keep grows from that same spirit. We want to bring
+                    people together across South Africa to respond to hardship,
+                    share opportunities and help one another move forward.
+                </p>
+
+                <p>
+                    Children hold a special place in this mission because they
+                    do not choose the circumstances they are born into. Our care
+                    also reaches towards the families and communities around them.
+                    When communities grow stronger, more people have room to thrive.
+                </p>
+
+                <a href="#our-focus" class="text-link">
+                    What we’re working towards <span aria-hidden="true">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOCUS AREAS -->
+    <section id="our-focus" class="section focus-section section-anchor">
+        <div class="container">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">Our focus</span>
+                    <h2>Care for today.<br />Possibility for tomorrow.</h2>
+                </div>
+
+                <p>
+                    Practical support matters. So does the opportunity to learn,
+                    build confidence and take the next step.
+                </p>
+            </div>
+
+            <div class="programme-grid">
+                <article class="programme-card theme-earth">
+                    <div class="programme-top">
+                        <span class="programme-number">01</span>
+                        <span class="programme-symbol" aria-hidden="true">↗</span>
+                    </div>
+
+                    <span class="programme-category">Practical community care</span>
+
+                    <h3>A little care can change how a place feels.</h3>
+
+                    <p>
+                        Building on our beginnings in home painting, we want to
+                        bring people together around practical needs that support
+                        dignity in homes and communities.
+                    </p>
+
+                    <ul class="activity-list" aria-label="Areas of interest">
+                        <li>Home upliftment</li>
+                        <li>Donation drives</li>
+                        <li>Community support</li>
+                    </ul>
+
+                    <span class="programme-status">
+                        <span aria-hidden="true"></span>
+                        Growing from our first acts of care
+                    </span>
+                </article>
+
+                <article class="programme-card theme-purple">
+                    <div class="programme-top">
+                        <span class="programme-number">02</span>
+                        <span class="programme-symbol" aria-hidden="true">↗</span>
+                    </div>
+
+                    <span class="programme-category">Knowledge & opportunity</span>
+
+                    <h3>Someone’s next step starts with an open door.</h3>
+
+                    <p>
+                        Creating opportunities to share knowledge, build confidence
+                        and explore possible paths forward — with a special focus
+                        on helping children see beyond their starting point.
+                    </p>
+
+                    <ul class="activity-list" aria-label="Areas of interest">
+                        <li>Mentorship</li>
+                        <li>Skills exposure</li>
+                        <li>Technology learning</li>
+                    </ul>
+
+                    <span class="programme-status">
+                        <span aria-hidden="true"></span>
+                        Programme in development
+                    </span>
+                </article>
+
+                <article class="programme-card theme-green">
+                    <div class="programme-top">
+                        <span class="programme-number">03</span>
+                        <span class="programme-symbol" aria-hidden="true">↗</span>
+                    </div>
+
+                    <span class="programme-category">Connection & belonging</span>
+
+                    <h3>Stronger communities begin with each other.</h3>
+
+                    <p>
+                        Bringing people together to exchange ideas, share
+                        experiences and take part in community activities
+                        where everyone has something valuable to contribute.
+                    </p>
+
+                    <ul class="activity-list" aria-label="Areas of interest">
+                        <li>Community events</li>
+                        <li>Shared experiences</li>
+                        <li>Local partnerships</li>
+                    </ul>
+
+                    <span class="programme-status">
+                        <span aria-hidden="true"></span>
+                        Programme in development
+                    </span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- TECHNOLOGY FEATURE -->
+    <section class="section technology-section">
+        <div class="container technology-panel">
+            <div class="technology-art" aria-hidden="true">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <span class="tech-chip chip-code">&lt;/&gt;</span>
+                <span class="tech-chip chip-plus">+</span>
+                <span class="tech-chip chip-spark">✳</span>
+
+                <div class="robot">
+                    <div class="robot-antenna"><span></span></div>
+                    <div class="robot-head">
+                        <span class="robot-eye"></span>
+                        <span class="robot-eye"></span>
+                        <span class="robot-mouth"></span>
+                    </div>
+                    <div class="robot-body">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <span class="robot-arm arm-left"></span>
+                    <span class="robot-arm arm-right"></span>
+                </div>
+
+                <div class="technology-label">Curiosity belongs to everyone.</div>
+            </div>
+
+            <div class="technology-copy">
+                <span class="eyebrow">Tomorrow starts with curiosity</span>
+
+                <h2>
+                    A first line of code.<br />
+                    A whole new possibility.
+                </h2>
+
+                <p>
+                    Technology can feel far away when you have never had the
+                    chance to explore it. We want to help change that.
+                </p>
+
+                <p>
+                    With technology support from LungeloDev, our vision includes
+                    introducing young people to coding, connected devices and
+                    robotics making room to experiment, solve problems and
+                    discover what they can create.
+                </p>
+
+                <div class="technology-tags">
+                    <span>Coding</span>
+                    <span>IoT</span>
+                    <span>Robotics</span>
+                    <span>Creative thinking</span>
+                </div>
+
+                <a href="#get-involved" class="text-link">
+                    Help grow this opportunity <span aria-hidden="true">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section id="our-approach" class="section section-anchor approach-section">
+        <div class="container">
+            <div class="centered-heading">
+                <span class="eyebrow">The way we care</span>
+                <h2>People first. Always.</h2>
+                <p>
+                    We believe meaningful change begins with respect,
+                    grows through connection, and takes people working together.
+                </p>
+            </div>
+
+            <div class="approach-grid">
+                @for (step of steps; track step.number) {
+                <article class="approach-card">
+                    <span class="step-number">{{ step.number }}</span>
+                    <h3>{{ step.title }}</h3>
+                    <p>{{ step.description }}</p>
+                </article>
+                }
+            </div>
+        </div>
+    </section>
+
+    <!-- INVOLVEMENT -->
+    <section id="get-involved" class="section involvement-section section-anchor">
+        <div class="container">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">There is room for you here</span>
+                    <h2>Good grows<br />when we show up.</h2>
+                </div>
+
+                <p>
+                    You do not need to have everything to make a difference.
+                    Start with what you can share.
+                </p>
+            </div>
+
+            <div class="support-grid" aria-label="Ways to get involved">
+                @for (option of supportOptions; track option.id) {
+                <button class="support-card" type="button" [class.is-selected]="activeSupport === option.id"
+                    [attr.aria-pressed]="activeSupport === option.id" aria-controls="support-details"
+                    (click)="selectSupport(option.id)">
+                    <span class="support-top">
+                        <span>{{ option.number }}</span>
+                        <span class="support-arrow" aria-hidden="true">↗</span>
+                    </span>
+
+                    <strong>{{ option.title }}</strong>
+                    <span class="support-description">
+                        {{ option.shortDescription }}
+                    </span>
+                </button>
+                }
+            </div>
+
+            <div id="support-details" class="support-details" aria-live="polite">
+                <div>
+                    <h3>{{ selectedSupport.heading }}</h3>
+                    <p>{{ selectedSupport.description }}</p>
+                </div>
+
+                <div>
+                    <ul class="support-ideas">
+                        @for (idea of selectedSupport.ideas; track idea) {
+                        <li>
+                            <span aria-hidden="true">✓</span>
+                            {{ idea }}
+                        </li>
+                        }
+                    </ul>
+
+                    <a href="#contact" class="text-link">
+                        Let’s connect <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq-section">
+        <div class="container faq-grid">
+            <div>
+                <span class="eyebrow">A few things you might wonder</span>
+                <h2>Small questions.<br />A shared understanding.</h2>
+                <p class="faq-intro">
+                    We are at the beginning of our journey.
+                    Here is a little more about what we are building.
+                </p>
+            </div>
+
+            <div class="faq-list">
+                @for (faq of faqs; track faq.question; let index = $index) {
+                <article class="faq-item" [class.is-open]="openFaq === index">
+                    <h3>
+                        <button type="button" [id]="'faq-question-' + index" [attr.aria-expanded]="openFaq === index"
+                            [attr.aria-controls]="'faq-answer-' + index" (click)="toggleFaq(index)">
+                            {{ faq.question }}
+                            <span aria-hidden="true">
+                                {{ openFaq === index ? '−' : '+' }}
+                            </span>
+                        </button>
+                    </h3>
+
+                    <div class="faq-answer" [id]="'faq-answer-' + index"
+                        [attr.aria-labelledby]="'faq-question-' + index" [hidden]="openFaq !== index">
+                        <p>{{ faq.answer }}</p>
+                    </div>
+                </article>
+                }
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section section-anchor">
+        <div class="container">
+            <div class="contact-panel">
+                <div class="contact-pattern" aria-hidden="true"></div>
+
+                <span class="eyebrow">From one act of care to many</span>
+                <h2>Let’s grow something<br />that matters.</h2>
+
+                <p>
+                    A conversation, a shared skill, a community connection.
+                    Your part in this story can begin with something small.
+                </p>
+
+                @if (contactEmail) {
+                <a [href]="contactHref" class="button button-white">
+                    Get in touch <span aria-hidden="true">↗</span>
+                </a>
+                <a class="contact-email" [href]="'mailto:' + contactEmail">
+                    {{ contactEmail }}
+                </a>
+                } @else {
+                <div class="contact-coming-soon">
+                    <span aria-hidden="true"></span>
+                    Our public contact details will be shared here soon.
+                </div>
+                }
+
+                <span class="contact-signoff">Rooted in care. Growing possibility.</span>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-top">
+        <a class="footer-brand" href="#home">Tend <span>N</span> Keep</a>
+
+        <p>
+            A South African initiative.<br />
+            A belief in what people can become.
+        </p>
+
+        <a href="#home" class="back-to-top">
+            Back to top <span aria-hidden="true">↑</span>
+        </a>
+    </div>
+
+    <div class="container footer-bottom">
+        <p>© {{ currentYear }} Tend N Keep. All rights reserved.</p>
+        <span>Made with care, for community.</span>
+    </div>
+</footer>
